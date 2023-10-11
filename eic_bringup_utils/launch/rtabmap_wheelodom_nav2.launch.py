@@ -153,7 +153,7 @@ def generate_launch_description():
           }],
         remappings=[
             ('scan_cloud', '/cloud'),
-            ('odom', '/odom'),
+            ('odom', '/omnimecbot/odom'),
             ],
         arguments=['-d']
     )
